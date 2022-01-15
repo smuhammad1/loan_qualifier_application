@@ -1,33 +1,54 @@
 # Loan Qualifier Application
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is a python command-line interface application that allows users to see qualifying loans from lenders based on input. The application works by taking in a criteria from a `daily_rate_sheet` from various loan providers, then prompting the user to input their personal relevant information, and returning a set of avaliable loans with an option to save those loans to a specefic path (in this case, a csv file).
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+For this project, you will need to utilize python 3.7 of the following packages:
+
+ ````
+ import csv - For importing a csv file that will display the specific loans the user qualifies for.
+
+ pathlib - For loading and saving files from and to specefic paths.
+
+ fire - For the command line interface, help page, and entrypoint.
+
+ questionary - For interactive user prompts and dialogs
+ ````
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
-
+Before running the application first install the following:
+````
+  pip install pathlib
+  pip install fire
+  pip install questionary
+````
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+This app is used by cloning the repository and running the app.py with python on a local terminal or command line: 
+
+`python app.py`
+
+
+<img width="1049" alt="Screen Shot 2022-01-14 at 10 11 49 PM" src="https://user-images.githubusercontent.com/96351123/149611352-049e5345-366d-4440-8c79-fa97dc1fb0e0.png">
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Contributors: Sumayyah Muhammad  
+Email: sumayyahmuhammadts@gmail.com
+LinkedIn: https://www.linkedin.com/in/sumayyahmuhammadofficial/
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+UC Berkeley
