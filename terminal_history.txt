@@ -1,0 +1,27 @@
+  241  conda deactivate
+  242  conda activate dev
+  243  python app_challenge.py
+  244  python app.py
+  245  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/
+  246  python app.py
+  247  git clone git@github.com:smuhammad1/Loan-Qualifier.git
+  248  git status
+  249  git@github.com:smuhammad1/Loan-Qualifier.git
+  250  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/
+  251  python app.py
+  252  0
+  253  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/
+  254  python app.py
+  255  git clone git@github.com:smuhammad1/Loan-Qualifier.git
+  256  git add -A
+  257  source /Users/sumayyah/opt/anaconda3/bin/activate
+  258  conda activate dev
+  259  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/qualifier/filters/app_challenge.py
+  260  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/practice_runs.py
+  261  conda activate dev
+  262  git log
+  263  cd Desktop
+  264  ls
+  265  cd Fintech_Workspace
+  266  cd Module_2_Challenge_2/loan_qualifier_application
+  267  git init
