@@ -115,7 +115,6 @@ def save_qualifying_loans(qualifying_loans):
     save_csv = Path("qualifying_loans.csv")
     with open (save_csv, "w", newline="") as csvfile:
         csvwriter = csv.writer(csvfile)
-        #csvwriter.writerow(header)
         for qualifying_loan in qualifying_loans:
             csvwriter.writerow(qualifying_loan)
 
