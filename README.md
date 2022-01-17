@@ -36,8 +36,7 @@ This app is used by cloning the repository and running the app.py with python on
 
 `python app.py`
 
-
-<img width="1049" alt="Screen Shot 2022-01-14 at 10 11 49 PM" src="https://user-images.githubusercontent.com/96351123/149611352-049e5345-366d-4440-8c79-fa97dc1fb0e0.png">
+<img width="873" alt="Screen Shot 2022-01-16 at 10 13 56 PM" src="https://user-images.githubusercontent.com/96351123/149717095-dd71d79d-cd8b-4c1e-bb2e-7e446b438f35.png">
 
 ---
 
