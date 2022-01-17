@@ -111,7 +111,11 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     save_csv = questionary.text("Do you want to save your list of qualifying loans as a CSV file").ask()
+    save_csv = questionary.text("Enter file name to save as CSV (csv)").ask()
+
     # @TODO: Complete the usability dialog for savings the CSV Files.
+    if save_csv =="": #If user misuses function, return user.
+        return
     save_csv = Path("qualifying_loans.csv")
     with open (save_csv, "w", newline="") as csvfile:
         csvwriter = csv.writer(csvfile)

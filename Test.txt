@@ -1,0 +1,258 @@
+   50  mv sample.txt example.txt
+   51  ls
+   52  cd Desktop
+   53  conda create -n dev python=3.7 anaconda
+   54  conda activate dev
+   55  echo ${SHELL}
+   56  conda init zsh
+   57  conda deactivate
+   58  cd Desktop
+   59  mkdir Fintech-Workspace
+   60  cd Fintech-Workspace
+   61  ls
+   62  cd Python_Project
+   63  ls
+   64  conda activate dev
+   65  python --version
+   66  code .
+   67  print(\"Lion_\"Academy\")
+   68  print(\"Lion_\"Academy\")
+   69  cd Desktop
+   70  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   71  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   72  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   73  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   74  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   75  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   76  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   77  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Python_Project/practice.py
+   78  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   79  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   80  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   81  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   82  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   83  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   84  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   85  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   86  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   87  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   88  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   89  cd Desktop
+   90  cd Desktop
+   91  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   92  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+   93  ls
+   94  cd 01_Stu_Variables
+   95  ls
+   96  /usr/local/bin/python3
+   97  /usr/local/bin/python3
+   98  /usr/local/bin/python3
+   99  cd
+  100  """Part 2: Analyze Loan Data.\n\nAnalyze the loan to determine the investment evaluation.\n\nUsing more detailed data on one of these loans, follow these steps to calculate a Present Value, or a "fair price" for what this loan would be worth.\n\n1. Use get() on the dictionary of additional information to extract the **Future Value** and **Remaining Months** on the loan.\n    a. Save these values as variables called `future_value` and `remaining_months`.\n    b. Print each variable.\n\n    @NOTE:\n    **Future Value**: The amount of money the borrower has to pay back upon maturity of the loan (a.k.a. "Face Value")\n    **Remaining Months**: The remaining maturity (in months) before the loan needs to be fully repaid.\n\n2. Use the formula for Present Value to calculate a "fair value" of the loan. Use a minimum required return of 20% as the discount rate.\n3. Write a conditional statement (an if-else statement) to decide if the present value represents the loan's fair value.\n    a. If the present value of the loan is greater than or equal to the cost, then print a message that says the loan is worth at least the cost to buy it.\n    b. Else, the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price.\n\n    @NOTE:\n    If Present Value represents the loan's fair value (given the required minimum return of 20%), does it make sense to buy the loan at its current cost?\n"""\n\n# Given the following loan data, you will need to calculate the present value for the loan\nloan = {\n    "loan_price": 500,\n    "remaining_months": 9,\n    "repayment_interval": "bullet",\n    "future_value": 1000,\n}\n\n# @TODO: Use get() on the dictionary of additional information to extract the Future Value and Remaining Months on the loan.\n# Print each variable.\n\nfv = loan\nloan.get("future_value")\nprint(fv)\nrm = loan\nloan.get("remaining_months")\nprint(rm)\n\n# @TODO: Use the formula for Present Value to calculate a "fair value" of the loan.\n# Use a minimum required return of 20% as the discount rate.\n#   You'll want to use the **monthly** version of the present value formula.\n#   HINT: Present Value = Future Value / (1 + Discount_Rate/12) ** remaining_months\n\n"""Part 2: Analyze Loan Data.\n\nAnalyze the loan to determine the investment evaluation.\n\nUsing more detailed data on one of these loans, follow these steps to calculate a Present Value, or a "fair price" for what this loan would be worth.\n\n1. Use get() on the dictionary of additional information to extract the **Future Value** and **Remaining Months** on the loan.\n    a. Save these values as variables called `future_value` and `remaining_months`.\n    b. Print each variable.\n\n    @NOTE:\n    **Future Value**: The amount of money the borrower has to pay back upon maturity of the loan (a.k.a. "Face Value")\n    **Remaining Months**: The remaining maturity (in months) before the loan needs to be fully repaid.\n\n2. Use the formula for Present Value to calculate a "fair value" of the loan. Use a minimum required return of 20% as the discount rate.\n3. Write a conditional statement (an if-else statement) to decide if the present value represents the loan's fair value.\n    a. If the present value of the loan is greater than or equal to the cost, then print a message that says the loan is worth at least the cost to buy it.\n    b. Else, the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price.\n\n    @NOTE:\n    If Present Value represents the loan's fair value (given the required minimum return of 20%), does it make sense to buy the loan at its current cost?\n"""\n\n# Given the following loan data, you will need to calculate the present value for the loan\nloan = {\n    "loan_price": 500,\n    "remaining_months": 9,\n    "repayment_interval": "bullet",\n    "future_value": 1000,\n}\n\n# @TODO: Use get() on the dictionary of additional information to extract the Future Value and Remaining Months on the loan.\n# Print each variable.\nloan = {\n    "loan_price": 500,\n    "remaining_months": 9,\n    "repayment_interval": "bullet",\n    "future_value": 1000,\n}\nfv = loan.get("future_value", "remaining_value")\nprint("The variable for the future value is", fv)\nrm = loan.get("remaining_months")\nprint("The variable for the remaining months is", rm)\n\npresent_value = fv/ (1 + (0.20/12)) ** rm\nfair_value = present_value\nprint(fair_value)\nprint(f"The fair value for this loan is: ${fair_value: .2f}")\n\nif fair_value >= loan.get("loan_price"):\n    print("Buy It, It's worth it.")\nelse: \n    print("Too expensive! It's not worth it"):\n    
+  101  /usr/local/bin/python3
+  102  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice.py
+  103  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice.py
+  104  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice.py
+  105  /usr/local/bin/python3
+  106  conda activate dev
+  107  ls
+  108  cd Fintech_Workspace
+  109  ls
+  110  pwd
+  111  cd Desktop
+  112  cd Fintech_Workspace
+  113  cd Python_Project
+  114  ls
+  115  code .
+  116  code .
+  117  python practice.py
+  118  new_loan = {\n    "loan_price": 800,\n    "remaining_months": 12,\n    "repayment_interval": "bullet",\n    "future_value": 1000,\n}\n\n# @TODO: Define a new function that will be used to calculate present value.\n#    This function should include parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`\n#    The function should return the `present_value` for the loan.\n\nannual_discount_rate = 0.2\npresent_value = fv/ (1 + (0.20/12)) ** rm\ndef new_function_calculate_present_value():\n    present_value = new_loan.get("future_value") / (1 + (annual_discount_rate/12)) ** new_loan.get("remaining_months") 
+  119  python practice.py
+  120  python practice.py
+  121  ls
+  122  cd practice.py
+  123  cd Desktop
+  124  cd Desktop
+  125  ls
+  126  cd Fintech_Workspace
+  127  ls
+  128  python practice_runs.py
+  129  python practice_runs.py
+  130  python pracitce_runs.py
+  131  cd Fintech_Workspace
+  132  python practice_runs.py
+  133  cd Fintech_Workspace
+  134  python practice_runs.py
+  135  python practice_run.py
+  136  cd Desktop
+  137  cd Fintech_Workspace
+  138  ls
+  139  cd Python_Project
+  140  python practice_runs.py
+  141  conda activate
+  142  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  143  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  144  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  145  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  146  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  147  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  148  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  149  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  150  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  151  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  152  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  153  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  154  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/loan_analyzer.py
+  155  clear
+  156  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  157  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech_Workspace/Python_Project/practice_runs.py
+  158  conda activate dev
+  159  pip -V
+  160  pip freeze
+  161  pip install fire
+  162  pip install questionary
+  163  python app.py
+  164  cd Desktop
+  165  pip install fire
+  166  pip install questionary
+  167  conda activate
+  168  python setup.py install
+  169  conda activate dev
+  170  python setup.py install
+  171  python app.py
+  172  cd Desktop
+  173  cd Fintech_Workspace
+  174  ls
+  175  cd Starter_Code 2
+  176  cd Starter_Code 2
+  177  python app.py
+  178  conda activate dev
+  179  pip install fire
+  180  pip install uestionary
+  181  pip install questionary
+  182  /usr/local/bin/python3
+  183  python install fire
+  184  conda activate dev
+  185  pip install fire
+  186  pip install questionary
+  187  source /Users/sumayyah/opt/anaconda3/bin/activate
+  188  conda activate dev
+  189  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python "/Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code 2/loan_qualifier_app/app.py"
+  190  conda activate dev
+  191  python.py
+  192  clear
+  193  pip install pytest
+  194  clear
+  195  cd Desktop
+  196  cd FinTech_Workspace
+  197  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code 2
+  198  ls
+  199  cd Starter_Code 2
+  200  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2
+  201  ls
+  202  python app_challenge.py
+  203  cd loan_qualifier_app
+  204  ls
+  205  python app.py
+  206  python app.py
+  207  code .
+  208  python app.py
+  209  python app.py
+  210  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/qualifier/filters/app_challenge.py
+  211  /usr/local/bin/python3 /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/app.py
+  212  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/app.py
+  213  source /Users/sumayyah/opt/anaconda3/bin/activate
+  214  conda activate dev
+  215  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python "/Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code 2/loan_qualifier_app/practice_runs.py"
+  216  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python "/Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code 2/loan_qualifier_app/practice_runs.py"
+  217  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python "/Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code 2/app_challenge.py"
+  218  conda activate deev
+  219  conda activate dev
+  220  python app_challenge.py
+  221  cd Desktop
+  222  ls
+  223  cd Fintech_Workspace
+  224  ls
+  225  cd Fintech-Workspace
+  226  ls
+  227  cd Fintech-Workspace
+  228  cd Fintech-Workspace
+  229  cd Desktop
+  230  cd ..
+  231  clear
+  232  pwd
+  233  /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/app_challenge.py
+  234  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/app_challenge.py
+  235  pwd
+  236  cd Fintech-Workspace
+  237  ls
+  238  cd Starter_Code_2
+  239  ls
+  240  python app_challenge.py
+  241  conda deactivate
+  242  conda activate dev
+  243  python app_challenge.py
+  244  python app.py
+  245  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/
+  246  python app.py
+  247  git clone git@github.com:smuhammad1/Loan-Qualifier.git
+  248  git status
+  249  git@github.com:smuhammad1/Loan-Qualifier.git
+  250  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/
+  251  python app.py
+  252  0
+  253  cd /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/
+  254  python app.py
+  255  git clone git@github.com:smuhammad1/Loan-Qualifier.git
+  256  git add -A
+  257  source /Users/sumayyah/opt/anaconda3/bin/activate
+  258  conda activate dev
+  259  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/qualifier/filters/app_challenge.py
+  260  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/practice_runs.py
+  261  conda activate dev
+  262  git log
+  263  cd Desktop
+  264  ls
+  265  cd Fintech_Workspace
+  266  cd Module_2_Challenge_2/loan_qualifier_application
+  267  git init
+  268  history 50 > terminal_history.txt
+  269  git log
+  270  conda activate dev
+  271  cd /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/
+  272  pwd
+  273  ls
+  274  cd Desktop
+  275  ls
+  276  cd Fintech_Workspace
+  277  /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/app.py
+  278  cd /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/app.py
+  279  cd ..
+  280  cd Desktop
+  281  cd Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application
+  282  git init
+  283  git pull
+  284  git add README.md
+  285  git commit -m "updated project title as test"
+  286  git add README.md
+  287  git commit -m "updated project title as test"
+  288  git push
+  289  git add README.md
+  290  git commit -m "Formatted and edited README.md file"
+  291  git push
+  292  history 50 > terminal_history.txt
+  293  git push
+  294  git add app.py
+  295  git add "Starter_Code 2"/
+  296  git commit -m "removed unneccessary comments"
+  297  git push
+  298  python app.py
+  299  cd /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/
+  300  cd "/Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/"
+  301  python app.py
+  302  git add "Starter_Code 2"/
+  303  cd ..
+  304  cd ..
+  305  git add "Starter_Code 2"/
+  306  git commit -m "Retesting application functionality with different applicant criteria; pushing changes."
+  307  git push
