@@ -1,0 +1,50 @@
+  258  conda activate dev
+  259  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/qualifier/filters/app_challenge.py
+  260  /Users/sumayyah/opt/anaconda3/envs/dev/bin/python /Users/sumayyah/Desktop/Fintech-Workspace/Starter_Code_2/loan_qualifier_app/practice_runs.py
+  261  conda activate dev
+  262  git log
+  263  cd Desktop
+  264  ls
+  265  cd Fintech_Workspace
+  266  cd Module_2_Challenge_2/loan_qualifier_application
+  267  git init
+  268  history 50 > terminal_history.txt
+  269  git log
+  270  conda activate dev
+  271  cd /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/
+  272  pwd
+  273  ls
+  274  cd Desktop
+  275  ls
+  276  cd Fintech_Workspace
+  277  /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/app.py
+  278  cd /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/app.py
+  279  cd ..
+  280  cd Desktop
+  281  cd Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application
+  282  git init
+  283  git pull
+  284  git add README.md
+  285  git commit -m "updated project title as test"
+  286  git add README.md
+  287  git commit -m "updated project title as test"
+  288  git push
+  289  git add README.md
+  290  git commit -m "Formatted and edited README.md file"
+  291  git push
+  292  history 50 > terminal_history.txt
+  293  git push
+  294  git add app.py
+  295  git add "Starter_Code 2"/
+  296  git commit -m "removed unneccessary comments"
+  297  git push
+  298  python app.py
+  299  cd /Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/
+  300  cd "/Users/sumayyah/Desktop/Fintech_Workspace/Module_2_Challenge_2/loan_qualifier_application/Starter_Code 2/loan_qualifier_app/"
+  301  python app.py
+  302  git add "Starter_Code 2"/
+  303  cd ..
+  304  cd ..
+  305  git add "Starter_Code 2"/
+  306  git commit -m "Retesting application functionality with different applicant criteria; pushing changes."
+  307  git push
